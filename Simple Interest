@@ -1,0 +1,14 @@
+//Simple interest
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+	int p,r,t;
+	float S_I;
+	cout<<"Enter the values of principle,rate and time"<<endl;
+	cin>>p>>r>>t;
+	S_I=(p*r*t)/100;
+	cout<<"The simple Interest is :"<<S_I<<endl;
+	return 0;
+}
