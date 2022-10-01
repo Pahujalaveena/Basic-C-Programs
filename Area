@@ -1,0 +1,13 @@
+// Area of circle
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+	int r;
+	float area;   // "Float is used for decimal values"
+	cout<<"Enter the radius"<<endl;
+	cin>>r;
+	area=3.14*r*r;
+	cout<<"The area of circle is:"<<area;
+}
